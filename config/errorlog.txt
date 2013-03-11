@@ -1,0 +1,159 @@
+
+====================================================================
+Date: 7-10-09 11:45PM
+Error type: Database Error
+--------------------------------------------------------------------
+Error message: There was an error executing an SQL statement!
+Extra info: Duplicate key name 'mb_index'
+            
+
+CREATE FULLTEXT INDEX mb_index ON mb_messages(message_body)
+Module: DB
+Action: 
+User: 
+====================================================================
+====================================================================
+Date: 7-10-09 11:48PM
+Error type: Critical Error
+--------------------------------------------------------------------
+Error message: The page "news" could not be found!
+Extra info: 
+Module: Tetra Core
+Action: 
+User: Guest
+====================================================================
+====================================================================
+Date: 7-11-09 12:16AM
+Error type: Critical Error
+--------------------------------------------------------------------
+Error message: The page "user" could not be found!
+Extra info: 
+Module: Tetra Core
+Action: 
+User: Guest
+====================================================================
+====================================================================
+Date: 7-11-09 12:16AM
+Error type: Critical Error
+--------------------------------------------------------------------
+Error message: The page "nav" could not be found!
+Extra info: 
+Module: Tetra Core
+Action: 
+User: Guest
+====================================================================
+====================================================================
+Date: 7-11-09 12:25AM
+Error type: Database Error
+--------------------------------------------------------------------
+Error message: There was an error executing an SQL statement!
+Extra info: Unknown column 'message_guest' in 'field list'
+            INSERT INTO mb_messages (message_guest, message_parent, message_body, message_poster, message_date, message_attachment) VALUES ('', '1', 'Whilst digging for projects that reflect well my abilities to write web apps, I ran across a factory fresh version of Tetra (non-dev version). I\\\'d forgotten just how powerful this thing was. Perhaps I will play around with it some more in the future. Or perhaps not.
+
+Holy crap, I can attach stuff. Damn, this [i]is[/i] advanced!', '2', '1247289950', '')
+Module: DB
+Action: create_topic
+User: dxprog
+====================================================================
+====================================================================
+Date: 7-11-09 12:32AM
+Error type: Database Error
+--------------------------------------------------------------------
+Error message: There was an error executing an SQL statement!
+Extra info: Unknown column 'message_guest' in 'field list'
+            INSERT INTO mb_messages (message_guest, message_parent, message_body, message_poster, message_date, message_attachment) VALUES ('', '2', 'Whilst digging through my vast archives of web project searching for something that reflects my abilities in writing said applications, I ran across my beloved Tetra 2, the CMS that I spent nearly two years developing. In setting it up (using the release version), I come to realize what an accomplishment it really was and how full featured it is. So, hats off to Tetra 2!', '2', '1247290371', '')
+Module: DB
+Action: create_topic
+User: dxprog
+====================================================================
+====================================================================
+Date: 7-11-09 12:37AM
+Error type: General Error
+--------------------------------------------------------------------
+Error message: You cannot delete this column because the main content is displayed here. Please move "main" before continuing.
+Extra info: 
+Module: layout
+Action: layout
+User: dxprog
+====================================================================
+====================================================================
+Date: 7-11-09 12:39AM
+Error type: General Error
+--------------------------------------------------------------------
+Error message: You cannot delete this column because the main content is displayed here. Please move "main" before continuing.
+Extra info: 
+Module: layout
+Action: layout
+User: dxprog
+====================================================================
+====================================================================
+Date: 7-11-09 12:52AM
+Error type: General Error
+--------------------------------------------------------------------
+Error message: Flood control has prevented this message from being posted. If you want to make changes to your last message please edit it. Otherwise wait a full minute before trying to post again.
+Extra info: 
+Module: mb
+Action: post
+User: dxprog
+====================================================================
+====================================================================
+Date: 7-11-09 12:55AM
+Error type: Database Error
+--------------------------------------------------------------------
+Error message: There was an error executing an SQL statement!
+Extra info: Table 'Tetra.docs' doesn't exist
+            SELECT d.*, u.user_name, t.type_description FROM docs AS d INNER JOIN users AS u ON u.user_id=d.doc_poster INNER JOIN doc_types AS t ON t.type_id=d.doc_type
+Module: DB
+Action: 
+User: dxprog
+====================================================================
+====================================================================
+Date: 7-11-09 12:55AM
+Error type: Template Error
+--------------------------------------------------------------------
+Error message: Template doesn't exist!
+Extra info: docs_list_head.tpl
+Module: Templating
+Action: 
+User: dxprog
+====================================================================
+====================================================================
+Date: 7-11-09 12:55AM
+Error type: Template Error
+--------------------------------------------------------------------
+Error message: Template doesn't exist!
+Extra info: docs_list_foot.tpl
+Module: Templating
+Action: 
+User: dxprog
+====================================================================
+====================================================================
+Date: 7-11-09 12:56AM
+Error type: Critical Error
+--------------------------------------------------------------------
+Error message: The page "docs/add_form" could not be found!
+Extra info: 
+Module: Tetra Core
+Action: 
+User: dxprog
+====================================================================
+====================================================================
+Date: 7-11-09 12:58AM
+Error type: Template Error
+--------------------------------------------------------------------
+Error message: Template doesn't exist!
+Extra info: docs_list_head.tpl
+Module: Templating
+Action: 
+User: dxprog
+====================================================================
+====================================================================
+Date: 7-11-09 12:58AM
+Error type: Template Error
+--------------------------------------------------------------------
+Error message: Template doesn't exist!
+Extra info: docs_list_foot.tpl
+Module: Templating
+Action: 
+User: dxprog
+====================================================================

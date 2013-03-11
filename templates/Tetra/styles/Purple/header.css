@@ -1,0 +1,18 @@
+table.PageHead {
+	background-color: #9b74cf;
+}
+
+td.DarkLine {
+	background-color: #4a2e68;
+	height: 1px;
+}
+
+td.Text {
+	font-family: "Verdana", Sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+table.Nav {
+	background-color: #ba98e8;
+}

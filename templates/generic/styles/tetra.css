@@ -1,0 +1,40 @@
+a.Link {
+	font-family: "Verdana", Sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+
+a.Link:Hover {
+	font-family: "Verdana", Sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #AAAAAA;
+	text-decoration: none;
+}
+
+td.Head {
+	font-family: "Verdana", Sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #EEEEEE;
+}
+
+td.Content {
+	font-family: "Verdana", Sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+hr.Rule {
+	color: #AAAAAA;
+}
+
+table.Quote {
+	border: 1px outset #FFFFFF;
+	background-color: #FAFAFA;
+	font-family: "Verdana", Sans-serif;
+	font-size: 11px;
+	color: #000000;
+}

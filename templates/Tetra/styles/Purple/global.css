@@ -1,0 +1,118 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+table.content {
+	border: 1px solid #7d55af;
+}
+
+td.Title {
+	font-family: "Verdana", Sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background-image: url("./images/header.png");
+	background-repeat: no-repeat;
+	background-color: #f0eafc;
+	height: 25px;
+	padding-left: 27px;	
+}
+
+td.Head {
+	font-family: "Verdana", Sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #f0eafc;
+	height: 20px;
+}
+
+td.HLine {
+	height: 1px;
+	background-color: #7d55af;
+}
+
+td.VLine {
+	width: 1px;
+	background-color: #7d55af;
+}
+
+td.Avatar {
+	width: 101px;
+	font-family: "Verdana", Sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	padding-left: 1px;
+	padding-top: 1px;
+	background-color: #fffaff;
+}
+
+td.Body {
+	font-family: "Verdana", Sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #fcf8ff;
+	padding: 2px;
+}
+
+td.Plain {
+	font-family: "Verdana", Sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 2px;
+}
+
+a {
+	font-family: "Verdana", Sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+td.SmallHead {
+	font-family: "Verdana", Sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding: 2px;
+	background-color: #f0eafc;
+}
+
+a:hover {
+	font-family: "Verdana", Sans-serif;
+	font-size: 12px;
+	color: #7d55af;
+	text-decoration: none;
+}
+
+a.Small {
+	font-family: "Verdana", Sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+a.Small:hover {
+	font-family: "Verdana", Sans-serif;
+	font-size: 11px;
+	color: #7d55af;
+	text-decoration: none;
+}
+
+a.Big {
+	font-family: "Verdana", Sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+a.Big:hover {
+	font-family: "Verdana", Sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #7d55af;
+	text-decoration: none;
+}
+
+.page {
+	font-family: "Verdana", Sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
